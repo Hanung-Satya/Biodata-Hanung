@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project Andro 1</string>
+    <string name="nama">Nama: Hanung Satya Adi Wicaksono</string>
+    <string name="kelas">Kelas: XI PPLG A</string>
+    <string name="no_absen">No. Absen: 17</string>
+    <string name="Alt_Image">Example Image</string>
+    <string name="biodata"> Biodata Diri</string>
+    <string name="ttl">TTL : Surakarta, 16/09/2008</string>
+    <string name="toast">TOAST</string>
+    <string name="count">COUNT</string>
+    <string name="back">BACK</string>
+    <string name="Aplication">Lanjut ke Aplikasi</string>
+</resources>

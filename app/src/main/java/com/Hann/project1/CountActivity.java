@@ -3,7 +3,6 @@ package com.Hann.project1;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.content.Intent;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
@@ -25,6 +24,7 @@ public class CountActivity extends AppCompatActivity {
             return insets;
         });
 
+        int count = 0;
         Button toastButton = findViewById(R.id.toast);
         Button countButton = findViewById(R.id.count);
         TextView textView = findViewById(R.id.View);
@@ -32,7 +32,7 @@ public class CountActivity extends AppCompatActivity {
         toastButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count = 0;
+                CountActivity.this.count = 0;
                 textView.setText(String.valueOf(count));
                 Toast.makeText(CountActivity.this, "Reset to 0", Toast.LENGTH_SHORT).show();
             }
@@ -41,8 +41,8 @@ public class CountActivity extends AppCompatActivity {
         countButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count++;
-                textView.setText(String.valueOf(count));
+                CountActivity.this.count++;
+                textView.setText(String.valueOf(CountActivity.this.count));
             }
         });
     }

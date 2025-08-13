@@ -23,8 +23,8 @@
 
     <ImageView
         android:id="@+id/exampleImage"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:contentDescription="@string/Alt_Image"
@@ -48,6 +48,7 @@
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
         android:text="@string/kelas"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp" />
 
@@ -58,6 +59,7 @@
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
         android:text="@string/no_absen"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp" />
 
@@ -68,6 +70,7 @@
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
         android:text="@string/ttl"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp" />
 

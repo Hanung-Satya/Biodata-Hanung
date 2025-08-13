@@ -6,7 +6,6 @@ import android.widget.Button;
 import android.content.Intent;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -15,7 +14,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class CountActivity extends AppCompatActivity {
     private int count = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
